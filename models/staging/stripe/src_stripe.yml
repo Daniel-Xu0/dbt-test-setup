@@ -15,4 +15,3 @@ sources:
 
     tables:
       - name: payment
-        identifier: payment
