@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_stripe__payments
+    description: order payments via Stripe
+    columns:
+      - name: customer_id
+        description: map to customer ID
+        tests:
+          - not_null
+      - name: payment_method
+        description: '{{ doc("payment_method") }}'
